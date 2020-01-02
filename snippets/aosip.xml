@@ -12,11 +12,11 @@
            revision="refs/heads/ten" />
 
   <remote  name="devices"
-           fetch="https://github.com/DerpFest-Devices"
+           fetch="https://github.com/DerpQuest-Devices"
            revision="refs/heads/ten" />
 
   <remote  name="derp"
-           fetch="https://github.com/DerpLab"
+           fetch="https://github.com/DerpQuest"
            revision="refs/heads/ten" />
 
   <!-- AOSiP -->
@@ -25,7 +25,7 @@
   <project path="bionic" name="platform_bionic" remote="derp" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="derp" />
   <project path="development" name="platform_development" remote="aosip" />
-  <project path="manifest" name="DerpLab/platform_manifest" remote="github" revision="ten" />
+  <project path="manifest" name="DerpQuest/platform_manifest" remote="github" revision="ten" />
 
   <!-- Build -->
   <project path="build/blueprint" name="platform_build_blueprint" remote="derp" />
